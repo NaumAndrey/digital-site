@@ -349,6 +349,7 @@ input:checked + .slider:before {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 180px;
 }
 
 .h2-like {
@@ -420,3 +421,107 @@ body.dark .achor .fill-color {
   fill: white;
 }
  
+
+.main-content-case {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1366px;
+
+}
+
+.main-content-case-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 150px;
+}
+
+.main-content-case-container__header {
+  margin-bottom: 150px;
+}
+
+.h1-case {
+  font-family: 'Druk Cyr';
+  font-style: normal;
+  font-weight: 999;
+  font-size: 50px;
+  line-height: 63px;
+  color: #000000;
+}
+
+.main-content-case-container__name_case_one {
+  margin-bottom: 30px;
+}
+
+.h2-name_case {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.main-content-case-container__description_case {
+  margin-bottom: 100px;
+}
+
+.p-case {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  color: #000000;
+  width: 570px;
+}
+
+.main-content-case-container__switch_case {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 180px;
+}
+
+.__switch_case_back {
+  margin-right: 65px;
+}
+
+.main-content-case-container___see_more {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.main-content-case_round {
+  margin-top: 141px;
+  cursor: pointer;
+}
+
+.main-content-case-container___see_more_img {
+  cursor: pointer;
+}
+
+.__switch_case_back, .__switch_case_go {
+  cursor: pointer;
+}
+
+body.dark .h1-case, body.dark .h2-name_case, body.dark .p-case{
+  color: white;
+}
+
+
+.stroke-color2 {
+  stroke:black;
+}
+.fill-color2 {
+  fill: black;
+}
+
+body.dark .stroke-color2 {
+  stroke:white;
+}
+
+body.dark .fill-color2 {
+  fill: white;
+}
