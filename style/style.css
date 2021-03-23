@@ -184,6 +184,7 @@ BODY {
   background-color: #ccc;
   -webkit-transition: .1s;
   transition: .3s;
+  border-radius: 14px;
   /* border: 1px solid; */
 }
 
