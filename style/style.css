@@ -334,9 +334,15 @@ input:checked + .slider:before {
   justify-content: center;
 }
 
-.achor {
-  cursor: pointer;
+.achor .stroke-color {
+  stroke: black;
 }
+
+.achor .fill-color {
+  cursor: pointer;
+  fill: black;
+}
+
 
 .main-content {
   display: flex;
@@ -386,11 +392,33 @@ body.dark .h1-like-one, body.dark .h1-like-three, body.dark .p-like, body.dark .
   text-shadow: #5dc8e5 0 0 10px;
 }
 
+body.dark .main-content-ul__list li:hover{
+  /* color: white; */
+  color: #2F44FF;
+}
+
+body.dark .main-content-ul__list li, body.dark .h2-like{
+  color: white;
+}
+
 body.dark .h1-like-two {
   /* text-shadow: #2F44FF  2px  2px 0, 
                #2F44FF -2px -2px 0, 
                #2F44FF -2px  2px 0, 
                #2F44FF  2px -2px 0; */
   color: #2F44FF;
+}
+
+body.dark .achor {
+  fill: red;
+  cursor: pointer;
+}
+
+body.dark .achor .stroke-color {
+  stroke: white;
+}
+
+body.dark .achor .fill-color {
+  fill: white;
 }
  
