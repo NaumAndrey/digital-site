@@ -402,11 +402,9 @@ body.dark .main-content-ul__list li, body.dark .h2-like{
 }
 
 body.dark .h1-like-two {
-  /* text-shadow: #2F44FF  2px  2px 0, 
-               #2F44FF -2px -2px 0, 
-               #2F44FF -2px  2px 0, 
-               #2F44FF  2px -2px 0; */
-  color: #2F44FF;
+  
+  /* color: #2F44FF; */
+  text-shadow: #2F44FF 0 0 20px;
 }
 
 body.dark .achor {
