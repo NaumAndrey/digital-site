@@ -639,3 +639,62 @@ body.dark .fill-color2 {
 /* .right-num:last-child {
   margin: 0;
 } */
+
+.header-stages-of-development {
+  margin-bottom: 100px;
+}
+
+.h1-dev {
+  font-family: 'Druk Cyr';
+  font-style: normal;
+  font-weight: 999;
+  font-size: 50px;
+  line-height: 63px;
+  color: #000000;
+}
+
+.ul-list-stages-of-development {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.li_dev-icon {
+  margin-bottom: 40px;
+}
+
+.li-header-dev {
+  margin-bottom: 19px;
+}
+
+.h3-dev {
+  font-family: 'Druk Cyr';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.p-dev {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  width: 330px;
+}
+
+.li-list-two {
+  margin-top: 50px;
+}
+
+.li-list-three {
+  margin-top: 100px;
+}
+
+.li-list-five {
+  margin-top: 50px;
+}
