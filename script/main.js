@@ -6,8 +6,14 @@
     const body = document.querySelector('body');
     const h1_like_one = document.querySelector('h1-like-one');
 
-    switchDark.addEventListener('click', () => {
-         body.classList.toggle('dark');
-    });
+    if (switchDark) {
+        switchDark.addEventListener('click', () => {
+            body.classList.toggle('dark');
+       });
+    } else {
+        console.log('error');
+    }
+
+    
 
 })()

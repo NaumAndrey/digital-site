@@ -427,7 +427,7 @@ body.dark .achor .fill-color {
   flex-direction: row;
   width: 100%;
   max-width: 1366px;
-
+  margin-bottom: 300px;
 }
 
 .main-content-case-container {
@@ -498,6 +498,17 @@ body.dark .achor .fill-color {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1366px) {
+  .main-content-case_round img {
+    width: 500px;
+    height: 500px;
+  }
+  .main-content-case-container {
+    margin-right: 100px;
+  }
+}
+
+
 .main-content-case-container___see_more_img {
   cursor: pointer;
 }
@@ -514,6 +525,7 @@ body.dark .h1-case, body.dark .h2-name_case, body.dark .p-case{
 .stroke-color2 {
   stroke:black;
 }
+
 .fill-color2 {
   fill: black;
 }
@@ -525,3 +537,105 @@ body.dark .stroke-color2 {
 body.dark .fill-color2 {
   fill: white;
 }
+
+.main-content-container-about {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  width: 100%;
+  margin-bottom: 366px;
+}
+
+.main-content-container__about_us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 100%; */
+  margin-right: 150px;
+  
+}
+.name-right {
+  margin-right: 30px;
+}
+
+.header__about-us {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 258px;
+}
+
+.h1-about_us {
+  font-family: 'Druk Cyr';
+  font-style: normal;
+  font-weight: 999;
+  font-size: 50px;
+  line-height: 63px;
+  color: #000000;
+}
+
+.gamification__about-us {
+  animation: rotate 24s infinite linear;
+  width: 431.55px;
+}
+
+.main-content-container-info__about-us {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 100%;
+  margin-top: 120px;
+}
+.h3-name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.underscore {
+  width: 100%;
+  border: 0.5px solid #000;
+  margin-bottom: 50px;
+}
+.description_name {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+.p-name {
+  width: 370px;
+}
+.__about-us__num {
+  display: flex;
+  flex-direction: row;
+}
+
+.h1-num {
+  font-family: 'Druk Cyr';
+  font-style: normal;
+  font-weight: 999;
+  font-size: 50px;
+  line-height: 63px;
+  color: #000000;
+  text-align: center;
+}
+.right-num {
+  margin-right: 70px;
+}
+
+.right-num:last-child {
+  margin-right: 0px;
+}
+
+.header__name {
+  margin-bottom: 50px;
+}
+
+/* .right-num {
+  margin-right: 70px;
+} */
+
+/* .right-num:last-child {
+  margin: 0;
+} */
