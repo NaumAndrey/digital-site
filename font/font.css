@@ -171,4 +171,24 @@
          url('DrukCyr-Super.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('DrukCyr-Super.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+
+  /**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-**/
+
+
+  @font-face {
+     font-family: 'Druk Text Wide Cyr';
+     font-style: super;
+     font-weight: 200;
+     src: local(''),
+          url('Druk Text Wide Cyr Super.otf') format('opentype');
+  }
+
+  /* @font-face {
+     font-family: 'Druk Text Wide Cyr';
+     font-style: italic;
+     font-weight: 900;
+     src: local(''),
+          url('Druk Text Wide Cyr Bold Italic.otf') format('otf');
+  }
+    */
   
