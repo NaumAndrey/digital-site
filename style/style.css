@@ -79,8 +79,7 @@ BODY {
   align-items: center;
   padding-left: 125px;
   padding-right: 125px;
-  top: 0;
-  
+  top: 0; 
 }
 
 .main {
@@ -328,7 +327,7 @@ input:checked + .slider:before {
                #2F44FF -1px  1px 0, 
                #2F44FF  1px -1px 0;
   /* margin-right: 240px; */
-  margin-right: 18px;
+  margin-right: 50px;
 }
 
 
@@ -401,8 +400,14 @@ input:checked + .slider:before {
 }
 
 body.dark {
-  background: #000 ;
+  background: #000;
+  /* Rectangle */
 }
+
+body.dark .header, body.dark .main, body.dark .footer {
+  background: url(../img/Rectangle.svg);
+}
+
 
 body.dark .h1-like-one, body.dark .h1-like-three, body.dark .p-like, body.dark .header-menu-ul__menu li, body.dark .header-menu-ul__menu a {
   color: white;
