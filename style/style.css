@@ -632,14 +632,6 @@ body.dark .fill-color2 {
   margin-bottom: 50px;
 }
 
-/* .right-num {
-  margin-right: 70px;
-} */
-
-/* .right-num:last-child {
-  margin: 0;
-} */
-
 .header-stages-of-development {
   margin-bottom: 100px;
 }
@@ -687,14 +679,25 @@ body.dark .fill-color2 {
   width: 330px;
 }
 
-.li-list-two {
-  margin-top: 50px;
+
+.li-list:nth-child(3n + 2) {
+  margin-top:50px;
 }
 
-.li-list-three {
-  margin-top: 100px;
+.li-list:nth-child(3n + 3) {
+  margin-top:100px;
 }
 
-.li-list-five {
-  margin-top: 50px;
+body.dark .h1-about_us,
+body.dark .h3-name,
+body.dark .p-name,
+body.dark .h1-dev,
+body.dark .p-dev,
+body.dark .h1-num,
+body.dark .__num p {
+  color: white;
+}
+
+body.dark .underscore {
+  border: 0.5px solid white;
 }
