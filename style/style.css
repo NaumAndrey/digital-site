@@ -400,13 +400,15 @@ input:checked + .slider:before {
 }
 
 body.dark {
-  background: #000;
+  /* background: #000; */
   /* Rectangle */
+  background: url(../img/44.png);
+
 }
 
-body.dark .header, body.dark .main, body.dark .footer {
+/* body.dark .header, body.dark .main, body.dark .footer {
   background: url(../img/Rectangle.svg);
-}
+} */
 
 
 body.dark .h1-like-one, body.dark .h1-like-three, body.dark .p-like, body.dark .header-menu-ul__menu li, body.dark .header-menu-ul__menu a {
