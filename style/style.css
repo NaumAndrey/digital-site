@@ -574,8 +574,19 @@ body.dark .stroke-color2 {
   stroke:white;
 }
 
+
 body.dark .fill-color2 {
   fill: white;
+}
+
+
+
+body.dark .stroke-color2:hover {
+  stroke: tomato;
+}
+
+body.dark .stroke-color2:hover {
+  fill: tomato;
 }
 
 .main-content-container-about {
