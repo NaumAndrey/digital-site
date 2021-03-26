@@ -793,6 +793,23 @@ body.dark .underscore {
 
 /**-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-**/
 
+/* .main-content-container-form {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+} */
+
+
+.formtest {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+}
+
 
 .group { 
   position:relative; 
@@ -807,7 +824,6 @@ body.dark .underscore {
   border-bottom:1px solid #757575;
   background: transparent;
 }
-
 
 .label {
   color:#999; 
