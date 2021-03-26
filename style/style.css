@@ -392,11 +392,13 @@ input:checked + .slider:before {
   cursor: pointer;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  margin-top: 10px;
+  margin-top: 10px;  
 }
 
 .main-content-ul__list li:hover {
-    color: #2F44FF;
+  color: #2F44FF;
+  cursor: pointer;
+  cursor: url(../img/cursor.cur) 2 2, pointer;
 }
 
 body.dark {
@@ -521,8 +523,18 @@ body.dark .achor .fill-color {
 }
 
 .main-content-case_round {
+  background-image: url(../img/cubes.png);
+  width: 550px;
+  height: 550px;
   margin-top: 141px;
   cursor: pointer;
+}
+
+.main-content-case_round:hover{
+  background-image: url(../img/see-presentation.svg);
+  width: 550px;
+  height: 550px;
+  border-radius: 275px;
 }
 
 @media screen and (max-width: 1366px) {
@@ -534,6 +546,7 @@ body.dark .achor .fill-color {
     margin-right: 100px;
   }
 }
+
 
 
 .main-content-case-container___see_more_img {
