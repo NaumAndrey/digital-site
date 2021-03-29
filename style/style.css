@@ -803,7 +803,7 @@ body.dark .underscore {
 } */
 
 
-/* .formtest {
+.formtest {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -815,35 +815,31 @@ body.dark .underscore {
   margin:10px 10px 45px 10px;
   flex-grow: 1;
   width: calc(100% * (1/2) - 10px - 10px)
-} */
+}
 
-.formtest {
+/* .formtest {
   display: grid;
   flex-direction: row;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   width: 100%;
   margin: 0px 50px 0px 130px;
 }
 
-.formtest_select {
-  width: 100%;
-}
 
 .group {
   position:relative; 
   margin-bottom:45px;
-  width: 450px;
   width: 100%;
-}
+} */
 
 .input {
   font-size:18px;
   padding:10px 10px 10px 5px;
-  width:450px;
+  /* width:450px; */
   border:none;
   border-bottom:1px solid #757575;
   background: transparent;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .label {
@@ -865,3 +861,55 @@ body.dark .underscore {
   color:#99999c;
 }
 
+.group1 {
+  position:relative; 
+  margin-bottom:45px;
+  /* width: 450px; */
+  width: 100%;
+}
+
+.input1 {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  width: 100%;
+  /* max-width: 450px; */
+  border: none;
+  border-bottom: 1px solid #757575;
+  background: transparent;
+}
+
+.label1 {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+.input1:focus ~ label, input1:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#99999c;
+}
+
+.select {
+  width: 100%;
+}
+
+
+.textarea {
+  width: 100%;
+  color:#000; 
+  font-size:18px;
+  font-weight:normal;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
