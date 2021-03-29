@@ -754,8 +754,9 @@ body.dark .underscore {
 .main-content-tell-us-about-your-project {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  /* justify-content: center; */
   width: 100%;
+  max-width: 1366px;
 }
 
 .main-content-continer__tell-us__about-your-project {
@@ -788,7 +789,7 @@ body.dark .underscore {
   font-size: 50px;
   line-height: 63px;
   color: #000000;
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 /**-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-**/
@@ -802,18 +803,37 @@ body.dark .underscore {
 } */
 
 
+/* .formtest {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px 50px 0px 130px;
+}
+
+.group {
+  position: relative;
+  margin:10px 10px 45px 10px;
+  flex-grow: 1;
+  width: calc(100% * (1/2) - 10px - 10px)
+} */
+
 .formtest {
   display: grid;
   flex-direction: row;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  width: 100%;
+  margin: 0px 50px 0px 130px;
+}
+
+.formtest_select {
   width: 100%;
 }
 
-
-.group { 
+.group {
   position:relative; 
-  margin-bottom:45px; 
+  margin-bottom:45px;
+  width: 450px;
+  width: 100%;
 }
 
 .input {
@@ -823,6 +843,7 @@ body.dark .underscore {
   border:none;
   border-bottom:1px solid #757575;
   background: transparent;
+  /* width: 100%; */
 }
 
 .label {
