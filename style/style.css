@@ -812,9 +812,16 @@ body.dark .underscore {
 
 .group {
   position: relative;
-  margin:10px 10px 45px 10px;
+  /* margin:10px 10px 45px 10px; */
+  margin:0px 120px 45px 0px;
+
   flex-grow: 1;
-  width: calc(100% * (1/2) - 10px - 10px)
+  /* width: calc(100% * (1/2) - 10px - 10px) */
+  width: calc(100% * (1/2) - 10px - 50px)
+}
+
+.group:nth-child(2n+1) {
+  margin: 0;
 }
 
 /* .formtest {
@@ -898,18 +905,11 @@ body.dark .underscore {
 }
 
 .select {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
   width: 100%;
+  border: none;
+  border-bottom: 1px solid #757575;
+  background: transparent;
 }
 
-
-.textarea {
-  width: 100%;
-  color:#000; 
-  font-size:18px;
-  font-weight:normal;
-  left:5px;
-  top:10px;
-  transition:0.2s ease all; 
-  -moz-transition:0.2s ease all; 
-  -webkit-transition:0.2s ease all;
-}
