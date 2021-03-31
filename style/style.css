@@ -93,6 +93,7 @@ BODY {
   overflow-x:hidden;
   overflow-y:hidden;
   margin-top: 120px;
+  /* margin-bottom: 500px; */
 }
 
 .main-container {
@@ -110,6 +111,7 @@ BODY {
   width: 100%;
   padding-left: 125px;
   padding-right: 125px; 
+  /* margin-bottom: 500px; */
 }
 
 .header-container {
@@ -138,7 +140,7 @@ BODY {
   /* width: 100%; */
 }
 
-.header-menu-ul:nth-child(1) {
+.header-menu-ul:nth-chil  d(1) {
   /* margin-right: 565px; */
 }
 
@@ -802,12 +804,28 @@ body.dark .underscore {
   width: 100%;
 } */
 
-
+/* 
 .formtest {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0px 50px 0px 130px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+} */
+
+.formtest {
+  visibility: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px 50px 0px 130px;
+}
+
+
+.formtest.active {
+  visibility: visible;
 }
 
 .group {
@@ -904,6 +922,8 @@ body.dark .underscore {
   color:#99999c;
 }
 
+
+
 .select {
   font-size: 18px;
   padding: 10px 10px 10px 5px;
@@ -913,3 +933,17 @@ body.dark .underscore {
   background: transparent;
 }
 
+
+
+
+.button_test:hover {
+  background: #2F44FF;
+}
+
+.contentfoter {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: tomato;
+}
