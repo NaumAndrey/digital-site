@@ -817,16 +817,33 @@ body.dark .underscore {
 
 .formtest {
   visibility: hidden;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px 50px 0px 130px; */
+}
+
+
+.formtest.active {
+  visibility: visible;
+  animation-duration: 1s;
+  animation-name: slidein;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0px 50px 0px 130px;
 }
 
+@keyframes slidein {
+  from {
+    transform: translateY(-100px);
+  }
 
-.formtest.active {
-  visibility: visible;
+  to {
+    transform: translateY(0px);
+  }
 }
+
 
 .group {
   position: relative;
@@ -934,16 +951,7 @@ body.dark .underscore {
 }
 
 
-
-
 .button_test:hover {
   background: #2F44FF;
 }
 
-.contentfoter {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: tomato;
-}

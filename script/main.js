@@ -21,5 +21,4 @@
     button_test.addEventListener('click' , () => {
         formtest.classList.toggle('active');
     });
-
 })()
