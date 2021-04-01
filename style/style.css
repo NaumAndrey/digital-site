@@ -312,7 +312,7 @@ input:checked + .slider:before {
   font-size: 90px;
   line-height: 114px;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .h1-like-two {
@@ -329,7 +329,7 @@ input:checked + .slider:before {
                #2F44FF  1px -1px 0;
   /* margin-right: 240px; */
   margin-right: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 
@@ -1069,4 +1069,17 @@ body.dark .fill {
 
 body.dark .h3-dev {
   color: white;
+}
+
+.stroke-sent {
+  stroke: black;
+}
+
+
+body.dark .stroke-sent {
+  stroke: white;
+}
+
+.sent {
+  cursor: pointer;
 }
