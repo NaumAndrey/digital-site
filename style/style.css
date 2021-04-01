@@ -140,9 +140,7 @@ BODY {
   /* width: 100%; */
 }
 
-.header-menu-ul:nth-chil  d(1) {
-  /* margin-right: 565px; */
-}
+
 
 .header-menu-ul__menu {
   display: flex;
