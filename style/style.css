@@ -312,6 +312,7 @@ input:checked + .slider:before {
   font-size: 90px;
   line-height: 114px;
   color: #000000;
+  margin-bottom: 20px;
 }
 
 .h1-like-two {
@@ -328,6 +329,7 @@ input:checked + .slider:before {
                #2F44FF  1px -1px 0;
   /* margin-right: 240px; */
   margin-right: 50px;
+  margin-bottom: 20px;
 }
 
 
@@ -434,7 +436,8 @@ body.dark .main-content-ul__list li, body.dark .h2-like{
 body.dark .h1-like-two {
   
   /* color: #2F44FF; */
-  text-shadow: #2F44FF 0 0 20px;
+  /* text-shadow: #2F44FF 0 0 20px; */
+  color: #2F44FF;
 }
 
 body.dark .achor {
