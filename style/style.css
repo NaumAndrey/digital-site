@@ -759,6 +759,7 @@ body.dark .underscore {
   /* justify-content: center; */
   width: 100%;
   max-width: 1366px;
+  margin-bottom: 165px;
 }
 
 .main-content-continer__tell-us__about-your-project {
@@ -1021,3 +1022,9 @@ body.dark .label, body.dark .input, body.dark .input1, body.dark .label1 {
   margin-right: 20px;
 }
 
+.submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
