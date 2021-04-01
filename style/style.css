@@ -1055,3 +1055,15 @@ body.dark .stroke-see-more {
 body.dark .fill-see-more {
   fill: white;
 }
+
+.fill {
+  fill: black;
+}
+
+body.dark .fill {
+  fill: white;
+}
+
+body.dark .h3-dev {
+  color: white;
+}

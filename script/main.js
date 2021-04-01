@@ -13,12 +13,11 @@
         switchDark.addEventListener('click', () => {
             body.classList.toggle('dark');
             white.innerHTML = "Black";
-            picture1.setAttributej('src','img/1500.jpg');
        });
     } else {
         console.log('error');
     }
-    
+
     button_test.addEventListener('click' , () => {
         formtest.classList.toggle('active');
     });
