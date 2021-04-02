@@ -552,13 +552,61 @@ body.dark .achor .fill-color {
 
 
 
-.main-content-case-container___see_more_img {
+.main-content-case-container___see_more_img svg {
   cursor: pointer;
+  animation: scale 1s;
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-.__switch_case_back, .__switch_case_go {
+
+/* .__switch_case_back, .__switch_case_go {
   cursor: pointer;
+  animation: rotate 2s infinite linear;
+  transform: scaleY(1.2);
+} */
+
+
+.__switch_case_back:hover, .__switch_case_go:hover {
+  cursor: pointer;
+  animation: scale 1s;
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
+
+.__switch_case_go .stroke-color2:hover {
+  
+}
+
+
+.stroke-plus {
+  stroke: black;
+}
+
+body.dark .stroke-plus {
+  stroke: white;
+}
+
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
 
 body.dark .h1-case, body.dark .h2-name_case, body.dark .p-case{
   color: white;
