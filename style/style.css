@@ -1133,7 +1133,7 @@ body.dark .stroke-sent {
   cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
 
     .header-menu-ul__menu {
       display: none;
