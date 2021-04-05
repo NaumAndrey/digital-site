@@ -1202,4 +1202,13 @@ body.dark .stroke-sent {
     .left-dsafra {
       margin-left: 10px;
     }
+
+    .main-container {
+      flex-direction: column;
+      width: 320px;
+    }
+
+    .footer {
+      display: none;
+    }
 }
