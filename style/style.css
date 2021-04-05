@@ -72,7 +72,7 @@ BODY {
 
 .header {
   display: flex;
-  position: fixed;
+  /* position: fixed; */
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -80,6 +80,7 @@ BODY {
   padding-left: 125px;
   padding-right: 125px;
   top: 0; 
+  overflow-x: hidden;
 }
 
 .main {
@@ -316,7 +317,7 @@ input:checked + .slider:before {
 }
 
 .h1-like-two {
-  font-family: Druk Text Wide Cyr;
+  font-family: 'Druk Text Wide Cyr';
   font-style: super;
   font-weight: 900;
   font-size: 90px;
@@ -1130,4 +1131,75 @@ body.dark .stroke-sent {
 
 .sent {
   cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+
+    .header-menu-ul__menu {
+      display: none;
+    }
+
+    .h1-like-one, .h1-like-three {
+      font-weight: 999;
+      font-size: 26px;
+      line-height: 33px;
+      color: #000;
+      margin: 0;
+    }
+
+    .h1-like-two {
+      font-family: 'Druk Text Wide Cyr';
+      font-style: super;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 33px;
+      color: white;
+      text-shadow: #2F44FF  1px  1px 0, 
+                  #2F44FF -1px -1px 0, 
+                  #2F44FF -1px  1px 0, 
+                  #2F44FF  1px -1px 0;
+      margin-right: 50px;
+      margin-bottom: 30px;
+    }
+
+    .header {
+      padding-left: 0px;
+      padding-right: 0px;
+      /* overflow-x: hidden; */
+    }
+
+    .humburger {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      /* overflow-x: hidden; */
+    }
+
+    .header-heading__heading {
+      margin: 0;
+    }
+    
+    .humburger-fill {
+      fill: black;
+    }
+
+    body.dark .humburger-fill {
+      fill: white;
+    }
+
+    .margin-right-p {
+      margin-right: 0;
+    }
+
+    .margin-right-ul {
+      margin-right: 0;
+    }
+
+    .right-hum {
+      margin-right: 130px;
+    }
+
+    .left-dsafra {
+      margin-left: 10px;
+    }
 }
