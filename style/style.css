@@ -1155,7 +1155,7 @@ body.dark .stroke-sent {
       line-height: 33px;
       color: #000;
       margin: 0;
-      /* margin-bottom: 20px; */
+      margin-bottom: 10px;
     }
 
     .h1-like-three {
@@ -1179,6 +1179,7 @@ body.dark .stroke-sent {
       line-height: 33px;
       /* color: #2F44FF; */
       margin-bottom: 5px;
+      margin-left: 30px;
     }
 
 
@@ -1222,7 +1223,7 @@ body.dark .stroke-sent {
     }
 
     .right-hum {
-      margin-right: 130px;
+      margin-right: 190px;
     }
 
     .left-dsafra {
