@@ -835,7 +835,7 @@ body.dark .underscore {
 
 .__about-your-project {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-bottom: 150px;
 }
 
@@ -1433,7 +1433,7 @@ body.dark .stroke-sent {
       font-family: 'Druk Text Wide Cyr';
       font-style: normal;
       font-weight: 999;
-      font-size: 26px;
+      font-size: 25px;
       line-height: 33px;
       color: #000;
     }
@@ -1442,9 +1442,10 @@ body.dark .stroke-sent {
       font-family: 'Druk Text Wide Cyr';
       font-style: normal;
       font-weight: 999;
-      font-size: 26px;
+      font-size: 24px;
       line-height: 33px;
       color: #000;
+      margin: 0;
     }
 
     .li-list:nth-child(2) {
@@ -1534,5 +1535,20 @@ body.dark .stroke-sent {
     }
     .footer-adress {
       margin-bottom: 50px;
+    }
+
+    .button_test {
+      display: none;
+    }
+
+    .write-button-2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .__about-your-project {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 80px;
     }
 }
