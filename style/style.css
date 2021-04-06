@@ -670,6 +670,7 @@ body.dark .fill-color2 {
   font-size: 50px;
   line-height: 63px;
   color: #000000;
+  width: 300px;
 }
 
 .gamification__about-us {
@@ -1261,12 +1262,9 @@ body.dark .stroke-sent {
       margin-bottom: 60px;
     }
 
-    .footer {
-      display: none;
-    }
 
     .h1-case {
-      font-family: Druk Text Wide Cyr;
+      font-family: 'Druk Text Wide Cyr';
       font-style: normal;
       font-weight: 999;
       font-size: 22px;
@@ -1509,6 +1507,31 @@ body.dark .stroke-sent {
     } 
 
     .data-person {
-      margin-bottom: 20px;
+      margin-bottom: 50px;
+    }
+
+    .option-disabled-selected p {
+      width: 320px;
+      text-align-last: auto;
+    }
+
+    .footer {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 200px;
+    }
+    .p-footer {
+      width: 320px;
+    }
+    .footer-adress {
+      margin-bottom: 50px;
     }
 }
