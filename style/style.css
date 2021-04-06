@@ -705,6 +705,7 @@ body.dark .fill-color2 {
 .p-name {
   width: 370px;
 }
+
 .__about-us__num {
   display: flex;
   flex-direction: row;
@@ -1135,6 +1136,12 @@ body.dark .stroke-sent {
   cursor: pointer;
 }
 
+.main-content-case_round1 {
+  display: none;
+}
+
+
+
 @media screen and (max-width: 375px) {
 
     .header-menu-ul__menu {
@@ -1344,5 +1351,100 @@ body.dark .stroke-sent {
 
     .main-content-case_round1 img {
       width: 320px;
+      margin-bottom: 30px;
+    }
+
+    .h1-about_us {
+      font-family: Druk Text Wide Cyr;
+      font-style: normal;
+      font-weight: 999;
+      font-size: 22px;
+      line-height: 28px;
+      /* identical to box height */
+      color: #000;
+    }
+
+    .main-content-container-about {
+      display: flex;
+      flex-direction: column;
+      /* width: 100%; */
+      /* margin-bottom: 366px; */
+    }
+
+    .description_name {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 60px;
+    }
+
+    .p-name {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 170%;
+      color: #000;
+      width: 328px;
+    }
+
+    .header__about-us {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 0px;
+    }
+
+    .main-content-container-info__about-us {
+      margin-top: 50px;
+    }
+
+    .__about-us__num {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .right-num {
+      margin-right: 0;
+    }
+
+    .__num p {
+      display: flex;
+      justify-content: center;
+    }
+
+    .bottom-num {
+      margin-bottom: 20px;
+    }
+
+    .h1-dev {
+      font-family: 'Druk Text Wide Cyr';
+      font-style: normal;
+      font-weight: 999;
+      font-size: 22px;
+      line-height: 28px;
+      color: #000;
+    }
+
+    .ul-list-stages-of-development {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .h1-tell-us {
+      font-family: 'Druk Text Wide Cyr';
+      font-style: normal;
+      font-weight: 999;
+      font-size: 26px;
+      line-height: 33px;
+      color: #000;
+    }
+
+    .h1-about-your-project {
+      font-family: 'Druk Text Wide Cyr';
+      font-style: normal;
+      font-weight: 999;
+      font-size: 26px;
+      line-height: 33px;
+      color: #000;
     }
 }
