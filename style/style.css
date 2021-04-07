@@ -640,7 +640,7 @@ body.dark .fill-color2 {
   flex-direction: row;
   /* justify-content: space-between; */
   width: 100%;
-  margin-bottom: 366px;
+  margin-bottom: 150px;
 }
 
 .main-content-container__about_us {
@@ -1143,9 +1143,13 @@ body.dark .stroke-sent {
   display: none;
 }
 
+.menu {
+  visibility: hidden;
+}
 
-
-
+.write-button-2 {
+  display: none;
+}
 
 @media screen and (max-width: 375px) {
 
@@ -1172,6 +1176,7 @@ body.dark .stroke-sent {
   .menu-btn span:nth-of-type(2) {
     top: calc(50% - 5px);
   }
+
   .menu-btn span:nth-of-type(3) {
     top: calc(50% + 5px);
   }
@@ -1189,6 +1194,7 @@ body.dark .stroke-sent {
     transition: transform 0.5s;
     z-index: 2;
     margin-top: 68px;
+    visibility: visible;
   }
   
   .menu.active {
@@ -1664,5 +1670,9 @@ body.dark .stroke-sent {
 
     .main-content-case_round1 {
       display: block;
+    }
+
+    .gamification__about-us {
+      display: none;
     }
 }
