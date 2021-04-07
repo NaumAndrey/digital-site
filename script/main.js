@@ -9,6 +9,9 @@
 
     const picture1 = document.querySelector('.imgTest1000');
 
+    const humburger = document.querySelector('.humburger');
+    const humMenu = document.querySelector('.header-heading__heading_test');
+
     if (switchDark) {
         switchDark.addEventListener('click', () => {
             body.classList.toggle('dark');
@@ -22,8 +25,12 @@
         formtest.classList.toggle('active');
     });
 
-    // const list = document.querySelector('.main-content-ul__list');
-    
-    
 
+    const menuBtn = document.querySelector('.menu-btn');
+    const menu = document.querySelector('.menu');
+
+    menuBtn.addEventListener('click', () => {
+        menuBtn.classList.toggle('active');
+        // menu.classList.toggle('active');
+    });
 })()
