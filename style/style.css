@@ -1675,4 +1675,8 @@ body.dark .stroke-sent {
     .gamification__about-us {
       display: none;
     }
+
+    body.dark .menu-btn span {
+      background-color: white;
+    }
 }
