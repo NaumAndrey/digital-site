@@ -18,7 +18,13 @@
     if (switchDark) {
         switchDark.addEventListener('click', () => {
             body.classList.toggle('dark');
-            white.innerHTML = "Black";
+            console.log(white.innerText);
+            if (white.innerText == "White") {
+                white.innerText = "Black";
+            } else {
+                white.innerText = "White";
+                console.log(white);
+            }
        });
     } else {
         console.log('error');
