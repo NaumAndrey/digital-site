@@ -1799,7 +1799,7 @@ body.dark .stroke-sent {
 
 
 
-@media screen and (max-width: 828px) {
+@media screen and (max-width: 479px) {
 
   .menu-btn {
     width: 30px;
