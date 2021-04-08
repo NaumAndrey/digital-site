@@ -435,8 +435,8 @@ body.dark .main-content-ul__list li, body.dark .h2-like{
 
 body.dark .h1-like-two {
   
-  /* color: #2F44FF; */
-  /* text-shadow: #2F44FF 0 0 20px; */
+  color: #2F44FF;
+  text-shadow: #000000 0 0 20px;
   color: #2F44FF;
 }
 
@@ -1750,7 +1750,7 @@ body.dark .stroke-sent {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
   }
   .p-footer {
     width: 320px;
@@ -1988,7 +1988,7 @@ body.dark .stroke-sent {
   }
 
   .right-hum {
-    margin-right: 140px;
+    margin-right: 275px;
   }
 
   .left-dsafra {
@@ -2276,7 +2276,7 @@ body.dark .stroke-sent {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
   }
   .p-footer {
     width: 320px;
