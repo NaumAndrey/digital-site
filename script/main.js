@@ -1,5 +1,7 @@
 
 (() => {
+    
+    new WOW().init(); // инициализация анимации
 
     const switchDark = document.querySelector('.round');
     const body = document.querySelector('body');
@@ -38,4 +40,5 @@
         menuBtn.classList.toggle('active');
         menu.classList.toggle('active');
     });
+
 })()
