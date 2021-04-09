@@ -3,7 +3,7 @@ const slider = document.querySelector('.swiper-container');
 
 const swiper = new Swiper(slider, {
     
-    speed: 800,
+    speed: 1200,
 
     slidesPerView: 1,
 
