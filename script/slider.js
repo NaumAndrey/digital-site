@@ -1,10 +1,9 @@
 
-
-// import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
-
 const slider = document.querySelector('.swiper-container');
 
 const swiper = new Swiper(slider, {
+    
+    speed: 800,
 
     slidesPerView: 1,
 
