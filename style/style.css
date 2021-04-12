@@ -597,10 +597,6 @@ body.dark .achor .fill-color {
   transform: scale(1.2);
 }
 
-.__switch_case_go .stroke-color2:hover {
-  
-}
-
 
 .stroke-plus {
   stroke: black;
@@ -1166,7 +1162,6 @@ body.dark .stroke-sent {
 .write-button-2 {
   display: none;
 }
-
 
 
 @media screen and (max-width: 1366px) {
