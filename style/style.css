@@ -264,6 +264,22 @@ input:checked + .slider:before {
   color: #000000;
 }
 
+
+.header-menu-ul__menu li:hover {
+  cursor: pointer;
+  color: #2F44FF;
+}
+
+body.dark .header-menu-ul__menu li:hover {
+  cursor: pointer;
+  color: #2F44FF;
+}
+
+body.dark .header-menu-ul__menu a:hover {
+  cursor: pointer;
+  color: #2F44FF;
+}
+
 .header-heading_gamification {
     /* position: absolute; */
     animation: rotate 24s infinite linear;
